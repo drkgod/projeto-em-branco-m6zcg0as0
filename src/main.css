@@ -1,7 +1,4 @@
-/* Global styles - Theme, font, utilities, animations and global components */
-
-/* CHANGE THE FONT BELOW TO WHATEVER YOU WANT */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +6,6 @@
 
 @layer base {
   :root {
-    /* Change the colors to match the design system */
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -64,7 +60,6 @@
   }
 
   .dark {
-    /* Change the colors to match the design system consistent with the dark mode */
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
 
@@ -108,7 +103,6 @@
     --chart-5: 10 100% 50%;
   }
 
-  /* NEVER REMOVE THIS */
   section[aria-label='Notifications alt+T'] {
     padding: 0 !important;
     margin: 0 !important;
@@ -116,7 +110,6 @@
 }
 
 @layer utilities {
-  /* KEEP ALL THE ANIMATIONS CLASSES THAT ARE USED BELOW */
   @keyframes accordion-down {
     from {
       height: 0;
